@@ -1,0 +1,27 @@
+{
+    "name": "marussia/contracts",
+    "description": "Marussia contracts",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "contracts"
+    ],
+    "authors": [
+        {
+            "name": "Mikhail Ilinsky",
+            "email": "mail@milinsky.ru"
+        }
+    ],
+    "support": {
+        "docs": "https://docs.marussia.org/contracts/"
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Marussia\\Contracts\\": "src/"
+        }
+    }
+}
